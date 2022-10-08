@@ -24,7 +24,7 @@ body {
     color: hsl(228, 12%, 48%);
 }
 
-main {
+article {
     max-width: 340px;
     max-height: 600px;
     border-radius: 10px;
@@ -35,7 +35,6 @@ img {
     display: inline-block;
     width: 100%;
     border-radius: 10px 10px 0 0;
-    background-image: url(/images/image-product-mobile.jpg);
 }
 
 section {
@@ -111,29 +110,15 @@ span {
 }
 
 @media (min-width: 1440px) {
-    main {
+    article {
         position: relative;
-        max-width: 1200px;
-        width: 900px;
-        max-height: 900px;
-        height: 700px;
+        max-width: 800px;
+        width: 700px;
     }
 
     img {
-        display: none;
-    }
-
-    div {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 50%;
-        height: 100%;
         border-radius: 10px 0 0 10px;
-        background-image: url(/images/image-product-desktop.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right;
     }
 
     section {
@@ -141,12 +126,12 @@ span {
         top: 0;
         right: 0;
         width: 50%;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     h1,
     .new {
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
 
     h1 {
